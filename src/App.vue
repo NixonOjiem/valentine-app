@@ -100,7 +100,7 @@ onUnmounted(() => {
         {{ isValentine ? "Happy Valentine's!" : "Hey " + partnerName + "!" }}
       </h1>
       <p class="text-rose-400 font-medium mb-8 uppercase tracking-widest text-xs">
-        {{ isValentine ? "I love you so much" : "Countdown to our day" }}
+        {{ isValentine ? "I love you so much Batsy" : "Countdown to our day" }}
       </p>
 
       <div v-if="!isValentine" class="grid grid-cols-4 gap-2 mb-10">
